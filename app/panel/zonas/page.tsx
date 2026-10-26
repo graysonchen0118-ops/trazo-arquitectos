@@ -65,7 +65,7 @@ export default function PanelZonas() {
           <span>
             <i className="ley-ambar" /> Pedido sin respuesta en 24 h
           </span>
-          <small className="muted">Pasa el mouse por una zona para verla en la maqueta. Al abrirla, la manzana sube.</small>
+          <small className="muted">Toca una zona o pasa el mouse por ella para verla en la maqueta. Al abrirla, la manzana sube.</small>
         </div>
       </section>
 
