@@ -618,7 +618,7 @@ export default function Maqueta(props: MaquetaProps) {
         radioDeseado = modo === "hero" ? 22 : 31;
       } else if (p.focoZona && indiceZona(p.focoZona) >= 0) {
         destino = manzanas[indiceZona(p.focoZona)].grupo.position.clone();
-        radioDeseado = modo === "fondo" ? 40 : 30;
+        radioDeseado = modo === "fondo" ? 31 : 30;
       } else if (p.rol === "arquitecto") {
         const propio = Array.from(pinesArq.values()).find((v) => v.propio);
         destino = propio ? propio.pos.clone().setY(0) : null;
